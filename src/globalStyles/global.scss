@@ -1,0 +1,28 @@
+@use 'index' as gs; // gs - global styles
+
+html,
+body,
+#root {
+	height: 100%;
+	margin: 0;
+}
+
+.app-root {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%; /* занимает всю высоту окна через #root height */
+}
+
+.app-main {
+	flex: 1 0 auto; /* занимает всё доступное пространство между header и footer */
+}
+
+footer {
+	padding: 20px;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 15px;
+	max-width: 1330px;
+}

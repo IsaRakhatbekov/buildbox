@@ -1,9 +1,12 @@
-import styles from './App.module.scss'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from './features/Home/Home'
 function App() {
 	return (
-		<div className={styles.wrapper}>
-			<h1>Let's pray and bless each time we start working on this project.</h1>
-		</div>
+		<BrowserRouter>
+			<Routes>
+				<Route path='/' element={<Home />} />
+			</Routes>
+		</BrowserRouter>
 	)
 }
 
