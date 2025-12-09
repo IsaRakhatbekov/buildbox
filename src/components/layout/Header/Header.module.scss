@@ -1,0 +1,26 @@
+.header {
+	z-index: 10;
+	position: relative;
+	padding-block: 10px;
+	background-color: #fff;
+	border-bottom: 1.5px solid $mainColor;
+}
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav {
+	gap: 25px;
+	display: flex;
+	align-items: center;
+}
+.navLink {
+	color: #aeaeae;
+	padding: 15px 30px;
+	letter-spacing: 1px;
+	&.active {
+		color: #fff;
+		background-color: $mainColor;
+	}
+}
