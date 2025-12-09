@@ -3,7 +3,7 @@ import styles from './Footer.module.scss'
 const Footer = () => {
 	return (
 		<div className={styles.Footer}>
-			<div className={`${styles.container} container`}>
+			<div className={`__container ${styles.container}`}>
 				<nav className={styles.nav}>
 					<ul className={styles.list}>
 						<li className={styles.item}>

@@ -1,0 +1,24 @@
+.header {
+	padding: 16px 0;
+	background-color: #f8f8f8;
+	border-bottom: 1px solid #e5e5e5;
+}
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav {
+	gap: 30px;
+	display: flex;
+	align-items: center;
+}
+.navLink {
+	padding: 15px;
+	color: #aeaeae;
+	letter-spacing: 1px;
+	&.active {
+		color: #fff;
+		background-color: $mainColor;
+	}
+}
