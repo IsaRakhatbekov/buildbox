@@ -2,91 +2,10 @@ import styles from './Footer.module.scss'
 
 const Footer = () => {
 	return (
-		<div className={styles.Footer}>
+		<div className={styles.footer}>
 			<div className={`__container ${styles.container}`}>
-				<nav className={styles.nav}>
-					<ul className={styles.list}>
-						<li className={styles.item}>
-							<a className={styles.link} href='#'>
-								links
-							</a>
-						</li>
-						<li className={styles.item}>
-							<a className={styles.link} href='#'>
-								links
-							</a>
-						</li>
-						<li className={styles.item}>
-							<a className={styles.link} href='#'>
-								links
-							</a>
-						</li>
-						<li className={styles.item}>
-							<a className={styles.link} href='#'>
-								links
-							</a>
-						</li>
-						<li className={styles.item}>
-							<a className={styles.link} href='#'>
-								links
-							</a>
-						</li>
-					</ul>
-					<ul className={styles.list}>
-						<li className={styles.item}>
-							<a className={styles.link} href='#'>
-								links
-							</a>
-						</li>
-						<li className={styles.item}>
-							<a className={styles.link} href='#'>
-								links
-							</a>
-						</li>
-						<li className={styles.item}>
-							<a className={styles.link} href='#'>
-								links
-							</a>
-						</li>
-						<li className={styles.item}>
-							<a className={styles.link} href='#'>
-								links
-							</a>
-						</li>
-						<li className={styles.item}>
-							<a className={styles.link} href='#'>
-								links
-							</a>
-						</li>
-					</ul>
-					<ul className={styles.list}>
-						<li className={styles.item}>
-							<a className={styles.link} href='#'>
-								links
-							</a>
-						</li>
-						<li className={styles.item}>
-							<a className={styles.link} href='#'>
-								links
-							</a>
-						</li>
-						<li className={styles.item}>
-							<a className={styles.link} href='#'>
-								links
-							</a>
-						</li>
-						<li className={styles.item}>
-							<a className={styles.link} href='#'>
-								links
-							</a>
-						</li>
-						<li className={styles.item}>
-							<a className={styles.link} href='#'>
-								links
-							</a>
-						</li>
-					</ul>
-				</nav>
+				<span>Copy</span>
+				<a href="#">Privacy</a>
 			</div>
 		</div>
 	)
