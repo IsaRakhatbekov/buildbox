@@ -1,6 +1,7 @@
+import type { ButtonProps } from '@/types/common'
 import styles from './Button.module.scss'
 
-const Button = ({ label }) => {
+const Button: React.FC<ButtonProps> = ({ label }) => {
   return (
     <div className={styles.buttonWrap}>
       <button type="button" className={styles.button}>
